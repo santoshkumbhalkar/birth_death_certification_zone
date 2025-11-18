@@ -1,0 +1,166 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 Mar, 2025, 9:52:35 PM
+    Author     : Santosh Kumbhalkar
+*/
+
+ body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.header{
+          position:fixed;
+          left:0;
+          top:0;
+          width:100%;
+          display:flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          background-color: #419999;
+          color: black;
+          gap:300px;
+          text-align: center;
+      }
+      
+      .header img{
+          height:100px;
+          
+      }
+      
+      .header .title h1{
+          
+          font-size:30px;
+      }
+      
+       .serch_id{
+          
+          height: 100px;
+      
+          background-color: #87c8c8;
+          margin-top: 100px;
+          
+          margin-left: 200px;
+          margin-right: 200px;
+      }
+      .serch_id label{
+          font-weight: bold;
+          font-size: 24px;
+          
+      }
+      
+      .serch_id .lbl-input {
+          padding-left: 270px;
+          padding-top: 32px;
+          
+          
+      }
+      .lbl-input input{
+          height: 30px;
+          width: 200px;
+          font-size: 20px;
+      }
+      .lbl-input button{
+         height: 35px;
+         width: 80px;
+         font-size: 20px;
+         background-color: #ccccff;
+         cursor: pointer;
+      }
+     
+      
+     
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    background-color: black;
+    padding: 20px;
+    margin-top: 60px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-left: 240px;
+}
+.container h2{
+    color: white;
+    font-weight: 600;
+    padding-left: 290px;
+    padding-bottom: 25px;
+    font-size: 32px;
+    border-bottom: 2px solid #419999;
+    
+}
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #070806;
+  
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 10px;
+    border-left: 4px solid #419999;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    padding-bottom: 8px;
+    color: white;
+    padding-bottom: 8px;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+/* Layout Adjustments */
+ .form-grid-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+      }
+      
+
+
+
+
+.btn-submit {
+    background-color: #419999;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 6px;
+    width: 25%;
+    margin-left: 340PX;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-submit:hover {
+    background-color: #07bf7a;
+}

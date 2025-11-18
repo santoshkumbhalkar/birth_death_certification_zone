@@ -1,0 +1,259 @@
+ body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    .navbar {
+      background-color: #81b6b6;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar .logo img {
+      height: 50px;
+      margin-right: 1rem;
+    }
+
+    .navbar .logo .logo-text {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar ul li {
+      margin-right: 1.5rem;
+      position: relative;
+    }
+
+    .navbar ul li a {
+      text-decoration: none;
+      color: black;
+      font-size: 1rem;
+      font-weight: 500;
+      padding-bottom: 0.5rem;
+    }
+
+    .navbar ul li a.active {
+      color: #003333;
+    }
+
+    .navbar ul li a:hover {
+      color: black;
+      border-bottom: 2px solid #003333;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('HOLDING.jpg') no-repeat center center / cover;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero h1 {
+      font-size: 4rem;
+      margin: 0;
+      text-transform: uppercase;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .btn {
+      background-color: #ccffcc;
+      color: #333;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #e6b800;
+      color: #000;
+    }
+    
+    .image-container{
+        height: 200px;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .image-container .overlay h2{
+        padding-left: 70px;
+        padding-top: 70px;
+        color: black;
+    }
+    .image-container .overlay p{
+       padding-left: 60px;
+       padding-right: 60px;
+        color: black;
+        font-size: 16px;
+          line-height: 1.6;
+    }
+    /* Services Section */
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 3rem 2rem;
+  background-color: #f4f7f6;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.service-box {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.service-box h3 {
+  font-size: 1.8rem;
+  color: #003366;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.service-box p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+.about-usw{
+    padding-left: 80px;
+     padding-right: 80px;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.about-usw h2{
+    justify-content: center;
+    align-content: center;
+}
+
+.service-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.service-box:hover h3 {
+  color: #00bfae; /* Highlight text on hover */
+}
+
+.service-box:hover p {
+  color: #333;
+}
+
+
+
+    .steps-area {
+      padding: 3rem 2rem;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+
+    .steps-area h2 {
+      font-size: 2.5rem;
+      color: #003333;
+      margin-bottom: 2rem;
+      text-transform: uppercase;
+    }
+
+    .steps {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .steps ol {
+      padding-left: 1.5rem;
+    }
+
+    .steps ol li {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+
+    .steps ol li::marker {
+      font-weight: bold;
+      color: #003333;
+    }
+    
+    footer {
+    background-color: #81b6b6;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.footer-text {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.footer-text a {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-certification {
+    margin-top: 20px;
+}
+
+.footer-certification img {
+    max-height: 60px;
+    width: auto;
+}

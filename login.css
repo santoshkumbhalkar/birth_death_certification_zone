@@ -1,0 +1,190 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 Mar, 2025, 10:27:59 AM
+    Author     : Santosh Kumbhalkar
+*/
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+        font-family: Arial, sans-serif;
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        
+        min-height: 100vh;
+      }
+
+       .header{
+          position:fixed;
+          left:0;
+          top:0;
+          width:100%;
+          display:flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          background-color: #419999;
+          color: white;
+          gap:300px;
+          text-align: center;
+      }
+      
+      .header img{
+          height:100px;
+          
+      }
+      
+      .header .title h1{
+          
+          font-size:30px;
+      }
+      
+          .navbar {
+     background-color:#ccffcc;
+     padding-bottom: 10px;
+     padding-top: 10px;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar .logo img {
+      height: 50px;
+      margin-right: 1rem;
+    }
+
+    .navbar .logo .logo-text {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar ul li {
+      margin-right: 1.5rem;
+      position: relative;
+    }
+
+    .navbar ul li a {
+      text-decoration: none;
+      color: black;
+      font-size: 1rem;
+      font-family: bold;
+      font-weight: 500;
+      padding-bottom: 0.5rem;
+    }
+
+    .navbar ul li a.active {
+        color: #003333;
+    }
+
+    .navbar ul li a:hover {
+      color: black;
+      border-bottom: 2px solid #003333;
+    }
+
+
+        .container {
+            display: flex;
+            height: 100vh;
+            width: 100%;
+
+            
+        }
+
+       
+
+       
+
+        .login-form {
+            width: 80%;
+            max-width: 400px;
+            margin-left: 250px;
+            margin-top: 200px;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: wheat;
+            font-weight: 800;
+            font-size: 35px;
+            font-family: Times New Roman;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group .btn a{
+            text-decoration: none;
+            
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            background: black;
+            color: white;
+        }
+
+        input[type="text"]:focus, input[type="password"]:focus {
+            border-left: 4px solid #ff914d;
+            outline: none;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #329191;
+            color: #fff;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #ff9999;
+            color: black;
+        }
+
+        .forgot-password {
+            text-align: center;
+            margin-top: 10px;
+            padding-left: 85px;
+           
+        }
+
+        .forgot-password a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        .forgot-password a:hover {
+            text-decoration: underline;
+        }
